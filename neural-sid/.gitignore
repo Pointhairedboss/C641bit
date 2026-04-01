@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+venv/
+
+# Training
+train/checkpoints/
+*.pt
+
+# Data (binary files)
+data/*.bin
+data/*.d64
+
+# C64 build
+c64/*.prg
+
+# OS
+.DS_Store
+Thumbs.db
